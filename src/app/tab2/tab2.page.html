@@ -1,17 +1,56 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 2
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 2</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <div style="background:#0c4a50;">
+    <img style=" border-radius:0 0 100px 0;" src="../../assets/img/covid19-1.jpg" />
+  </div>
 
-  <app-explore-container name="Tab 2 page"></app-explore-container>
+  <div class="" style="z-index: 2000; margin-top: -50px; background:#0c4a50; position: relative;
+   border-radius: 15px 0 0 0;">
+
+
+    
+      <ion-searchbar value="search for a country"></ion-searchbar>
+    
+
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+          <ion-card>
+            <ion-card-content>
+              <ion-item>
+                <ion-label class="ion-text-center" style="font-size:30px; font-weight: bolder;color: red;">
+                  Infected
+                </ion-label>
+              </ion-item>
+              <p style="text-align: center;font-size:25px; font-weight: bolder; color: red;"> 102868</p>
+            </ion-card-content>
+          </ion-card>
+        </ion-col>
+        <ion-col>
+          <ion-card>
+            <ion-card-content>
+              <ion-item>
+                <ion-label class="ion-text-center" style="font-size:30px; font-weight: bolder; color: green;">
+                  Recovered
+                </ion-label>
+              </ion-item>
+              <p style="text-align: center;font-size:25px; font-weight: bolder;color: green;"> 102868</p>
+            </ion-card-content>
+
+          </ion-card>
+        </ion-col>
+        <ion-col>
+          <ion-card>
+            <ion-card-content>
+              <ion-item>
+                <ion-label class="ion-text-center" style="font-size:30px; font-weight: bolder; color: red;">
+                  Death
+                </ion-label>
+              </ion-item>
+              <p style="text-align: center;font-size:25px; font-weight: bolder; color:red;"> 102868</p>
+            </ion-card-content>
+          </ion-card>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
 </ion-content>
